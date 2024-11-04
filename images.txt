@@ -1,6 +1,1 @@
-
-golang:1.22.4
-
-alpine:3.20.3
-
-nginx:1.24.0-alpine
+docker.io/kubeedge/cloudcore:v1.15.3
