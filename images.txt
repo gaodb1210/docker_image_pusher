@@ -1,1 +1,1 @@
-docker.io/kubeedge/eclipse-mosquitto:1.6.15
+registry.k8s.io/pause:3.6
