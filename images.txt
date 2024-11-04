@@ -1,1 +1,1 @@
-docker.io/kubeedge/cloudcore:v1.15.3
+registry.k8s.io/pause:3.8
