@@ -1,3 +1,4 @@
 #bitnami/etcd:3.5.11
 #apache/apisix:3.11.0-debian
-apache/apisix-dashboard:3.0.1-alpine
+#apache/apisix-dashboard:3.0.1-alpine
+registry.k8s.io/kwok/kwok:v0.6.1
