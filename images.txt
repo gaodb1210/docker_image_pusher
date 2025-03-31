@@ -3,4 +3,4 @@
 #apache/apisix-dashboard:3.0.1-alpine
 #registry.k8s.io/kwok/kwok:v0.6.1
 #registry.k8s.io/e2e-test-images/agnhost:2.32
---platform=linux/amd64 alpine:3.20.3
+--platform=linux/arm64 alpine:3.20.3
