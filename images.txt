@@ -18,4 +18,5 @@
 #docker.io/kubeedge/installation-package:v1.15.3
 #docker.io/kubeedge/eclipse-mosquitto:1.6.15
 
-nvcr.io/nvidia/k8s-device-plugin:v0.17.1
+#nvcr.io/nvidia/k8s-device-plugin:v0.17.1
+nvcr.io/nvidia/k8s/cuda-sample:vectoradd-cuda12.5.0
