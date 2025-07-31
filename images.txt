@@ -22,3 +22,8 @@
 #nvcr.io/nvidia/k8s/cuda-sample:vectoradd-cuda10.2
 
 --platform=linux/arm64 docker.io/kubeedge/installation-package:v1.15.3
+
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:998a790f7f74caec6e7fc9084d7b85f25b6c011e753b26076c7db766587b3e08
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:deb7f4ff25b854c6a1f58c2435fe0799731eba974d50dd012b534b6daf8eebf3
+gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:d9f40097903d1d9f4108723d2e41dfc21039ff380671ab80723fc861d81b8071
+gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:3e81e0b0e2ead666c131a17b437b1759e59ec2b066db49c493e4663e42fa4452
