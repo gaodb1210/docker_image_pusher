@@ -23,7 +23,8 @@
 
 --platform=linux/arm64 docker.io/kubeedge/installation-package:v1.15.3
 
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:998a790f7f74caec6e7fc9084d7b85f25b6c011e753b26076c7db766587b3e08
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:deb7f4ff25b854c6a1f58c2435fe0799731eba974d50dd012b534b6daf8eebf3
-gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:d9f40097903d1d9f4108723d2e41dfc21039ff380671ab80723fc861d81b8071
-gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:3e81e0b0e2ead666c131a17b437b1759e59ec2b066db49c493e4663e42fa4452
+gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:ad42ddc9bc4e25fdc88c240d7cbfad4b2708eb7d26e07ae904d258011141116e
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:66aa0dbceee62691d5327e423bbd7cbd411903747adeab61fdc81b14590793d4
+gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:e5b7b6edd265b66d32f424bd245c06455154462ade6ce05698472212248d5657
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:48aee2733721ecc77956abc5a2ca072853a669ebc97519beb48f7b3da8455e67
+gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:89e6f90141f1b63405883fbb4de0d3b6d80f8b77e530904c4d29bdcd1dc5a167
