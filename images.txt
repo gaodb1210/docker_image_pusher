@@ -35,8 +35,15 @@
 #gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:d6cb6bee0acca917dd2ab8fce49dfe4b13786da5a0bb54a2830c01e8007e4cf3
 #gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:8a0f28b3328095bd9d5bf1ca6ea63ae9fa171aabee9949cdf3b3b20f11959c03
 
-gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:405489024e88def83f90ca1ca64c10ac10554888f4b1224d35f44ff8236e75ca
-gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:a11ceeaa9a712502749cec335550db1bea466775eb243183fe3a972cb51d78ee
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:cfd2d469c21151b78d15ba37f0a710793498a79e9b30c05e0196ade7d2e26569
-gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:c8a48410e7bd5467fab19781ea12c3ba7c21b86c4c0a4306a05fcf03f9a20e1d
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:e2c96da6abe81ff896874ab5df88d327378a8f58df6bc895105b9d31dfab21b1
+#gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:405489024e88def83f90ca1ca64c10ac10554888f4b1224d35f44ff8236e75ca
+#gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:a11ceeaa9a712502749cec335550db1bea466775eb243183fe3a972cb51d78ee
+#gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:cfd2d469c21151b78d15ba37f0a710793498a79e9b30c05e0196ade7d2e26569
+#gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:c8a48410e7bd5467fab19781ea12c3ba7c21b86c4c0a4306a05fcf03f9a20e1d
+#gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:e2c96da6abe81ff896874ab5df88d327378a8f58df6bc895105b9d31dfab21b1
+
+
+docker.io/istio/proxyv2:1.18.7
+docker.io/istio/pilot:1.18.7
+
+gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:cc8ae2904764fd72b9898c5aebe16fd424659f31eaef75945cdbcd941871155c
+gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:857ed2a8c27100947f40fb4db1cf8abe052fa76cafbea53d35da0890922e7577
