@@ -48,5 +48,5 @@
 #gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:cc8ae2904764fd72b9898c5aebe16fd424659f31eaef75945cdbcd941871155c
 #gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:857ed2a8c27100947f40fb4db1cf8abe052fa76cafbea53d35da0890922e7577
 
---platform=linux/arm64 registry.k8s.io/pause:3.8
+registry.k8s.io/pause:3.8
 
