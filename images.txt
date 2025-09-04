@@ -3,7 +3,7 @@
 #apache/apisix-dashboard:3.0.1-alpine
 #registry.k8s.io/kwok/kwok:v0.6.1
 #registry.k8s.io/e2e-test-images/agnhost:2.32
-#--platform=linux/arm64 alpine:3.20.3
+--platform=linux/arm64 alpine:3.20.3
 #--platform=linux/arm64 quay.io/brancz/kube-rbac-proxy:v0.11.0
 #--platform=linux/arm64 quay.io/prometheus-operator/prometheus-operator:v0.49.0
 #--platform=linux/arm64 grafana/grafana:8.1.1
@@ -48,5 +48,4 @@
 #gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:cc8ae2904764fd72b9898c5aebe16fd424659f31eaef75945cdbcd941871155c
 #gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:857ed2a8c27100947f40fb4db1cf8abe052fa76cafbea53d35da0890922e7577
 
-registry.k8s.io/pause:3.8
-
+#registry.k8s.io/pause:3.8
