@@ -50,4 +50,5 @@
 
 #registry.k8s.io/pause:3.8
 
---platform=linux/arm64 golang:alpine
+#--platform=linux/arm64 golang:alpine
+--platform=linux/arm64 kubeedge/cloudcore:v1.15.3
