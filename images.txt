@@ -52,6 +52,8 @@
 
 #--platform=linux/arm64 golang:alpine
 #--platform=linux/arm64 kubeedge/cloudcore:v1.15.3
---platform=linux/arm64 kubeedge/cloudcore:v1.22.1
---platform=linux/amd64 docker.io/kubeedge/installation-package:v1.22.1
+#--platform=linux/arm64 kubeedge/cloudcore:v1.22.1
+#--platform=linux/amd64 docker.io/kubeedge/installation-package:v1.22.1
+
+-platform=linux/arm64 kubeedge/iptables-manager:v1.22.1
 
