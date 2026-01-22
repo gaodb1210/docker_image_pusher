@@ -55,5 +55,8 @@
 #--platform=linux/arm64 kubeedge/cloudcore:v1.22.1
 #--platform=linux/amd64 docker.io/kubeedge/installation-package:v1.22.1
 
--platform=linux/arm64 kubeedge/iptables-manager:v1.22.1
+#-platform=linux/arm64 kubeedge/iptables-manager:v1.22.1
 
+
+--platform=linux/arm64 kubeedge/cloudcore:v1.17.0
+--platform=linux/amd64 docker.io/kubeedge/installation-package:v1.17.0
