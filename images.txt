@@ -62,11 +62,11 @@
 --platform=linux/amd64 docker.io/kubeedge/installation-package:v1.17.0
 
 # knative-1。17.2-arm
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:91c7e8d79413330038c1ad947da16987d3e834f44fd667a3401340d17bc52723
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:ed4f5650fcd4eec1c7bed463b36e911c407af59adfaefad130d32dca22215b2a
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:a2a440f01be9a8c81797c701de1876797641e87e655a88a88577ebd61185d47f
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:91c7e8d79413330038c1ad947da16987d3e834f44fd667a3401340d17bc52723
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:ed4f5650fcd4eec1c7bed463b36e911c407af59adfaefad130d32dca22215b2a
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:a2a440f01be9a8c81797c701de1876797641e87e655a88a88577ebd61185d47f
 --platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:63c93d34955835084b060f0d4460a97713cac3aa51169b6d3cab03e06d2d5898
 --platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:1b79e592b85722e4ff3d28be3b94758d4e3e7a3c085c78a3e21772ac3b62c980
 
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:781a242ee3f5fcf79264b98c65aff8185427404c51ab8ff723e2ebfaf085c593
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:846e3e40ac21966cbaa4e2aeaa856f0faa8fb26cfaf8e23baada1bad4087be8e
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:781a242ee3f5fcf79264b98c65aff8185427404c51ab8ff723e2ebfaf085c593
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:846e3e40ac21966cbaa4e2aeaa856f0faa8fb26cfaf8e23baada1bad4087be8e
