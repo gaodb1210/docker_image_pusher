@@ -58,15 +58,21 @@
 #-platform=linux/arm64 kubeedge/iptables-manager:v1.22.1
 
 
---platform=linux/arm64 kubeedge/cloudcore:v1.17.0
---platform=linux/amd64 docker.io/kubeedge/installation-package:v1.17.0
+#--platform=linux/arm64 kubeedge/cloudcore:v1.17.0
+#--platform=linux/amd64 docker.io/kubeedge/installation-package:v1.17.0
 
 # knative-1。17.2-arm
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:91c7e8d79413330038c1ad947da16987d3e834f44fd667a3401340d17bc52723
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:ed4f5650fcd4eec1c7bed463b36e911c407af59adfaefad130d32dca22215b2a
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:a2a440f01be9a8c81797c701de1876797641e87e655a88a88577ebd61185d47f
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:63c93d34955835084b060f0d4460a97713cac3aa51169b6d3cab03e06d2d5898
---platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:1b79e592b85722e4ff3d28be3b94758d4e3e7a3c085c78a3e21772ac3b62c980
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:63c93d34955835084b060f0d4460a97713cac3aa51169b6d3cab03e06d2d5898
+#--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:1b79e592b85722e4ff3d28be3b94758d4e3e7a3c085c78a3e21772ac3b62c980
 
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:781a242ee3f5fcf79264b98c65aff8185427404c51ab8ff723e2ebfaf085c593
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:846e3e40ac21966cbaa4e2aeaa856f0faa8fb26cfaf8e23baada1bad4087be8e
+# knative-1.16.3-arm
+--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:a10cd3a41198b24da590fa08b53a37e72a25eadc6762aeccc0f09b7c616944b2
+--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:81a9a266ab3c9dc2c9dbadf9fd32046582c0cfeaa40d7e4a71266b6c2d9ce280
+--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:7b1aa8a1ca31984a9957774bd1eb3ecc0ad29a6a457490d83a2236a5c4fed8aa
+--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:f70b5866b9821a4825c28dc4ab199faadc10bde398fd9ae93821e927408a0948
+--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:a8bfe278d9531c56c7caf152ba2998b1449912e8f10ee7ad393c27940a0c1e88
