@@ -78,5 +78,7 @@
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:a8bfe278d9531c56c7caf152ba2998b1449912e8f10ee7ad393c27940a0c1e88
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller@sha256:e70bc675f97778da144157f125b3001124ba7a5903b85dab9e77776352fea1c7
 #--platform=linux/arm64 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook@sha256:7d76a6d42d139ed53aae3ca2dfd600b1c776eb85a17af64dd1b604176a4b132a
---platform=linux/arm64 docker.io/istio/pilot:1.22.2
---platform=linux/arm64 docker.io/istio/proxyv2:1.22.2
+#--platform=linux/arm64 docker.io/istio/pilot:1.22.2
+#--platform=linux/arm64 docker.io/istio/proxyv2:1.22.2
+# edgemesh-agent
+--platform=linux/arm64 kubeedge/edgemesh-agent:v1.17.0
